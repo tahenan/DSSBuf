@@ -59,6 +59,13 @@ To be able to connect and use the Indoor resource, first, you would have to subm
 
 <br />
 
+- Once the reservation is approved, you can instantiate the second experiment : "srslte-shvlan-oran" [Link](https://www.powderwireless.net/show-profile.php?profile=1bd62bf4-5b60-11eb-b1eb-e4434b2381fc)
+
+<br />
+
+While selecting the parameters 
+
+
 ```
 function test() {
   console.log("notice the blank line before this function?");
