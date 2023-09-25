@@ -14,8 +14,12 @@ To begin, instantiate the Powder Experiment O-RAN: [Link](https://www.powderwire
 
 
 2. Once the experiment is completely initiated (takes around 30 min), 
-<br /> start another experiment "srslte-shvlan-oran" :   [Link](https://www.powderwireless.net/show-profile.php?profile=1bd62bf4-5b60-11eb-b1eb-e4434b2381fc) ; 
-<br /> This will act as the second experiment where the ENodeB and UE will be instantiated 
+<br /> -  start another experiment "srslte-shvlan-oran" :   [Link](https://www.powderwireless.net/show-profile.php?profile=1bd62bf4-5b60-11eb-b1eb-e4434b2381fc) ; 
+<br /> -  This will act as the second experiment where the ENodeB and UE will be instantiated 
+
+Here, as per the following experiment the way to instatiate will differ :
+
+<br />
 
 i. Attenuator Matrix Experiment <br />
       To connect the ORAN with the experiment of the ENodeB and UE connected with the attenuator matrix as shown in the diagram :
@@ -25,12 +29,32 @@ i. Attenuator Matrix Experiment <br />
 
 ![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man3.jpg)
 
-- To connect to the attenuator matrix, when instantiating the experiment, in the parameters settings :-
+<br />
+- To connect to the attenuator matrix, when instantiating the experiment, in the parameters settings:-
       -  add a controlled RF resource
       -  and connect the previous experiment by adding the VLAN name in the "shared vlan name" as shown below :
 
+
+<br />
+
 ![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man2.jpg)
 
+
+<br />
+
+ii. Indoor OTA Experiment 
+
+To be able to connect and use the Indoor resource, first, you would have to submit a reservation through: [Link](https://www.powderwireless.net/resgroup.php)
+<br />
+![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man4.jpg)
+<br />
+
+- Select the hardware ota-nuc (act as UE) and x310 (act as ENodeB) as shown below
+<br />
+
+![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man5.jpg)
+
+<br />
 
 ```
 function test() {
