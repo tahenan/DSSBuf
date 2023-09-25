@@ -45,8 +45,11 @@ i. Attenuator Matrix Experiment <br />
 ii. Indoor OTA Experiment 
 
 To be able to connect and use the Indoor resource, first, you would have to submit a reservation through: [Link](https://www.powderwireless.net/resgroup.php)
+
 <br />
+
 ![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man4.jpg)
+
 <br />
 
 - Select the hardware ota-nuc (act as UE) and x310 (act as ENodeB) as shown below
