@@ -1,6 +1,6 @@
 # Setting up the Experiment
 
-To begin, instantiate the Powder Experiment O-RAN: [Link](https://www.powderwireless.net/show-profile.php?profile=30d10b78-f939-11ea-b1eb-e4434b2381fc)
+To begin, instantiate the Powder Experiment "O-RAN": [Link](https://www.powderwireless.net/show-profile.php?profile=30d10b78-f939-11ea-b1eb-e4434b2381fc)
 
 1. Make sure the Parameters are selected as below: <br />
       - Create a shared VLAN through the "Add Shared VLAN" settings with any name, make sure you take note of it.
