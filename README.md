@@ -66,7 +66,7 @@ To be able to connect and use the Indoor resource, first, you would have to subm
 
 <br />
 
-While selecting the parameters
+- while selecting the parameters, under Indoor OTA resources add 
 
 
 function test() {
