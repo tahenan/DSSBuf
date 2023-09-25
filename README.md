@@ -34,7 +34,7 @@ i. Attenuator Matrix Experiment <br />
 <br />
 - To connect to the attenuator matrix, when instantiating the experiment, in the parameters settings:-
       -  add a controlled RF resource
-      -  and connect the previous experiment by adding the VLAN name in the "shared vlan name" as shown below :
+      -  and connect the ORAN experiment by adding the VLAN name in the "shared vlan name" as shown below :
 
 
 <br />
@@ -56,6 +56,7 @@ To be able to connect and use the Indoor resource, first, you would have to subm
 <br />
 
 - Select the hardware ota-nuc (act as UE) and x310 (act as ENodeB) as shown below
+  
 <br />
 
 ![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man5.jpg)
@@ -66,7 +67,16 @@ To be able to connect and use the Indoor resource, first, you would have to subm
 
 <br />
 
-- while selecting the parameters, under Indoor OTA resources add 
+- while selecting the parameters, under Indoor OTA resources add Indoor OTA X310 with Server 
+  and Indoor OTA Nuc with B210 as shown : 
+       - Similarly connect the ORAN experiment by adding the VLAN name in the "shared vlan name" 
+
+  
+<br />
+
+![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man6.jpg)
+
+<br />
 
 
 function test() {
