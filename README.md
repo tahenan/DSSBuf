@@ -21,6 +21,8 @@ Here, as per the following experiment the way to instatiate will differ :
 
 <br />
 
+
+
 i. Attenuator Matrix Experiment <br />
       To connect the ORAN with the experiment of the ENodeB and UE connected with the attenuator matrix as shown in the diagram :
 
@@ -41,6 +43,7 @@ i. Attenuator Matrix Experiment <br />
 
 
 <br />
+
 
 ii. Indoor OTA Experiment 
 
@@ -63,10 +66,9 @@ To be able to connect and use the Indoor resource, first, you would have to subm
 
 <br />
 
-While selecting the parameters 
+While selecting the parameters
 
 
-```
 function test() {
   console.log("notice the blank line before this function?");
 }
