@@ -22,9 +22,14 @@ i. Attenuator Matrix Experiment <br />
 
 <br />
 
-<br />
-![alt text]()
--
+
+![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man3.jpg)
+
+- To connect to the attenuator matrix, when instantiating the experiment, in the parameters settings :-
+      -  add a controlled RF resource
+      -  and connect the previous experiment by adding the VLAN name in the "shared vlan name" as shown below :
+
+![alt text](https://github.com/tahenan/DSSBuf/blob/main/photos/man2.jpg)
 
 
 ```
