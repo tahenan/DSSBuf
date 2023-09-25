@@ -67,8 +67,9 @@ To be able to connect and use the Indoor resource, first, you would have to subm
 
 <br />
 
-- while selecting the parameters, under Indoor OTA resources add Indoor OTA X310 with Server 
-  and Indoor OTA Nuc with B210 as shown : 
+- While selecting the parameters, under Indoor OTA resources <br />
+       - add Indoor OTA X310 with Server and Indoor OTA Nuc with B210 as shown below 
+
        - Similarly connect the ORAN experiment by adding the VLAN name in the "shared vlan name" 
 
   
@@ -78,10 +79,12 @@ To be able to connect and use the Indoor resource, first, you would have to subm
 
 <br />
 
+By now, you should be having two experiments running : <br />
+      - "O-RAN" expeirment where the RIC and Xapp will be deployed <br />
+      - "srslte-shvlan-oran" experiment where the ENodeB and UE will be running
 
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+**Next we will be running the experiemnts in the terminal through ssh given for various nodes,**  <br />
 
-hello 
+Follow the [Running the Experiment](https://github.com/tahenan/DSSBuf/blob/main/RunningtheExperiment.md) Guide
+      
+
