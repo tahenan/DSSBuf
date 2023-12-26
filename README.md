@@ -1,3 +1,18 @@
+# The Experiment
+RL model to dynamically allocate spectrum available between Human Type Traffic (LTE/5G) and Machine Type Traffic (NB-IoT)
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Setting up the Experiment
 
 To begin, instantiate the Powder Experiment "O-RAN": [Link](https://www.powderwireless.net/show-profile.php?profile=30d10b78-f939-11ea-b1eb-e4434b2381fc)
